@@ -107,6 +107,7 @@ const MovieCard = ({ movie }: MovieCardProps) => {
 									backgroundColor: "black",
 									borderRadius: "100%",
 									cursor: "pointer",
+									margin: "0.005rem",
 									"&:hover": { opacity: 0.8 },
 								}}
 								onClick={() => handleToggleBookmark(movie.id)}
